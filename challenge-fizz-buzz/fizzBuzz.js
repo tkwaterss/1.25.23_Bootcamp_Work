@@ -1,7 +1,7 @@
 // Write your solution below this line:
 
 //Starting w/ for loop to cycle from 1 to 50
-for (i = 1; i <= 50; i++) {
+for (let i = 1; i <= 50; i++) {
     //Using a series of if else statements to check for conditions
     //first if i is divisible by both 3 and 5
     if (i % 3 === 0 && i % 5 === 0) {
