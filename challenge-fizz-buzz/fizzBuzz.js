@@ -17,3 +17,16 @@ for (let i = 1; i <= 50; i++) {
         console.log(i);
     }
 }
+
+//Alternate creative solution
+
+// for (let i = 1; i <= 50; i++) {
+//     console.log(
+//       [i, 'fizz', 'buzz', 'fizzbuzz'][(i % 3 === 0) + 2 * (i % 5 === 0)]
+//     )
+//   }
+
+  //The firt array give options for the second array to display
+  //The second array is a operation that determines which value of the first array
+    //to siplay
+  //
