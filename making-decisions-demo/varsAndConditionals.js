@@ -58,4 +58,4 @@ while(jonHealth > 0) {
     jonHealth -= jamieAttack - jonDefense;
     hits++;
 }
-console.log(hits);
+console.log(`Jon died after ${hits}!`);
